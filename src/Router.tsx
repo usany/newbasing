@@ -13,8 +13,6 @@ import { ClickAwayListener } from '@mui/base/ClickAwayListener';
 function Router({ isLoggedIn, userObj, setUserObj, newAccount, setNewAccount }) {
     const [counter, setCounter] = useState([]);
     const [value, setValue] = useState(2);
-    // const [side, setSide] = useState('flex flex-col');
-    // const [sideNavigation, setSideNavigation] = useState('border border-sky-500	rounded-t fixed bottom-0 start-0 end-0');
     const [check, setCheck] = useState(false)
     const [sideNavigation, setSideNavigation] = useState(
         {
